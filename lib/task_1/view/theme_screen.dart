@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
                 children: [
 
                   //THEME TEXT
-                  theme_Chage_Text(),
+                  theme_Change_Text(),
 
                   //LIGHT THEME TEXT BUTTON
                   light_Theme_Button(toggle: toggle),

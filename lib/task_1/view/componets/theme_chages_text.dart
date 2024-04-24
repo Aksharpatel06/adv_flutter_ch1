@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Column theme_Chage_Text() {
+Column theme_Change_Text() {
   return Column(
     children: [
       Text(
