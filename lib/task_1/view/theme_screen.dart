@@ -1,6 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../utils/golbal_variable.dart';
+import 'componets/dark_theme_button.dart';
+import 'componets/light_theme_button.dart';
+import 'componets/theme_chages_text.dart';
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -12,23 +17,23 @@ class _MyAppState extends State<MyApp> {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    void toggle() {
+      setState(() {});
+    }
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      themeMode: (isdark)?ThemeMode.dark:ThemeMode.light,
+      themeMode: (isdark) ? ThemeMode.dark : ThemeMode.light,
       theme: ThemeData(
           colorScheme: ColorScheme.light(
-            onSecondary: Colors.red,
-            tertiaryContainer: Colors.red
-          )
-      ),
+              onSecondary: Colors.red, tertiaryContainer: Colors.red)),
       darkTheme: ThemeData(
           colorScheme: ColorScheme.dark(
-            onSecondary: Colors.blue,
-          )
-      ),
+        onSecondary: Colors.blue,
+      )),
       home: Scaffold(
-        body:Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical:150),
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 150),
           child: Container(
             height: 500,
             width: 350,
@@ -37,47 +42,15 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('Yo Man!',style: TextStyle(fontWeight: FontWeight.w600,fontSize: 30),),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 40.0,vertical: 10),
-                    child: Text("It\'s a simple example of dark theme",textAlign: TextAlign.center,style: TextStyle(fontWeight: FontWeight.w200,fontSize: 22),),
-                  ),
-                  CupertinoButton(
-                    onPressed: () {
-                      setState(() {
-                        isdark = false;
-                      });
-                    },
-                    child: Container(
-                      height: 80,
-                      width: double.infinity,
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.symmetric(horizontal: 20),
-                      decoration: BoxDecoration(
-                          color: (isdark)?Colors.redAccent:Colors.amber,
-                          borderRadius: BorderRadius.circular(20)
-                      ),
-                      child: Text('Light color',style: TextStyle(fontSize: 22,color:isdark ? Colors.white:Colors.black),),
-                    ),
-                  ),
-                  CupertinoButton(
-                    onPressed: () {
-                      setState(() {
-                        isdark = true;
-                      });
-                    },
-                    child: Container(
-                      height: 80,
-                      width: double.infinity,
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.symmetric(horizontal: 20),
-                      decoration: BoxDecoration(
-                          color: (!isdark)?Colors.redAccent:Colors.amber,
-                          borderRadius: BorderRadius.circular(20)
-                      ),
-                      child: Text('Dark Color',style: TextStyle(fontSize: 22,color:isdark ? Colors.white:Colors.black),),
-                    ),
-                  ),
+
+                  //THEME TEXT
+                  theme_Chage_Text(),
+
+                  //LIGHT THEME TEXT BUTTON
+                  light_Theme_Button(toggle: toggle),
+
+                  //DARK THEME TEXT BUTTON
+                  dark_Theme_Button(toggle: toggle),
                 ],
               ),
             ),
@@ -86,7 +59,5 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
+
 }
-
-
-bool isdark = false;
