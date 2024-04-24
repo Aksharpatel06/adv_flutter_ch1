@@ -24,13 +24,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: (isdark) ? ThemeMode.dark : ThemeMode.light,
-      theme: ThemeData(
-          colorScheme: ColorScheme.light(
-              onSecondary: Colors.red, tertiaryContainer: Colors.red)),
-      darkTheme: ThemeData(
-          colorScheme: ColorScheme.dark(
-        onSecondary: Colors.blue,
-      )),
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
       home: Scaffold(
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 150),
