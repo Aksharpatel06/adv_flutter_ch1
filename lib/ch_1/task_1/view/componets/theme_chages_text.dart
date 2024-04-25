@@ -7,6 +7,7 @@ Column theme_Change_Text() {
         'Yo Man!',
         style: TextStyle(fontWeight: FontWeight.w600, fontSize: 30),
       ),
+      SizedBox(height: 20,),
       Padding(
         padding: const EdgeInsets.symmetric(
             horizontal: 40.0, vertical: 10),
@@ -17,6 +18,7 @@ Column theme_Change_Text() {
           TextStyle(fontWeight: FontWeight.w200, fontSize: 22),
         ),
       ),
+      SizedBox(height: 20,),
     ],
   );
 }

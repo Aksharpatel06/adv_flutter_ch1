@@ -1,1 +1,3 @@
-bool isdark = false;
+class GlobalVariable{
+  static int stepperIndex=0;
+}
