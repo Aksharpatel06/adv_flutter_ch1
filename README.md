@@ -6,7 +6,7 @@
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/75759db2-172e-47dd-8abd-86b2231b9fed' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
 
   <div align="center">
-    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/blob/master/lib/task_1/view/theme_screen.dart">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/tree/master/lib/ch_1/task_1/view">👉 📚 Go to dart file 📚 👈</a>
   </div>
 </p>
 
@@ -23,7 +23,7 @@ https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/9c51c637-7714-
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/8303c426-7f5e-4e88-a56e-a39db3fe9c2e' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/4847c815-e5b7-4308-8182-896ba7227f43' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
   <div align="center">
-    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/blob/master/lib/task_1/view/theme_screen.dart">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/tree/master/lib/ch_1/task_2/view">👉 📚 Go to dart file 📚 👈</a>
   </div>
 </p>
 
