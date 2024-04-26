@@ -10,10 +10,9 @@ class GlobalTheme {
       ),
       primaryColor: Colors.grey,
       textTheme: TextTheme(
-          labelLarge: TextStyle(fontSize: 50, color: Colors.black),
-          labelMedium: TextStyle(fontSize: 30, color: Colors.black),
           titleLarge: TextStyle(fontSize: 28),
-          titleMedium: TextStyle(fontSize: 22)));
+          titleMedium: TextStyle(fontSize: 22))
+  );
   static ThemeData darktheme = ThemeData(
     scaffoldBackgroundColor: Colors.black38,
     brightness: Brightness.dark,
@@ -23,12 +22,7 @@ class GlobalTheme {
         color: Colors.lightGreen.shade400,
       ),
       textTheme: TextTheme(
-          labelLarge: TextStyle(
-            fontSize: 50,
-          ),
-          labelMedium: TextStyle(
-              fontSize: 30
-          ),
+
           titleLarge: TextStyle(
               fontSize: 22
           ),
