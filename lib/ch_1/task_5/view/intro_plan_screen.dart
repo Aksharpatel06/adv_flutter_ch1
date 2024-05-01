@@ -1,3 +1,4 @@
+import 'package:adv_flutter_ch1/ch_1/task_5/view/intro_working_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class IntroPlanScreen extends StatelessWidget {
           decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage('asset/img/img_2.png'),
+                fit: BoxFit.cover
               )),
           child: Column(
             children: [
@@ -26,15 +28,18 @@ class IntroPlanScreen extends StatelessWidget {
                   },),
                   Spacer(),
                   TextButton(
-                      onPressed: () {},
-                      child: Text(
-                        'Skip',
-                        style: Theme.of(context)
-                            .textTheme
-                            .titleMedium!
-                            .copyWith(
-                            fontWeight: FontWeight.w600, fontSize: 20),
-                      ))
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => IntroWorkingScreen(),));
+                    },
+                    child: Text(
+                      'Skip',
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleMedium!
+                          .copyWith(
+                          fontWeight: FontWeight.w400, fontSize: 18),
+                    ),
+                  ),
                 ],
               ),
               Spacer(),

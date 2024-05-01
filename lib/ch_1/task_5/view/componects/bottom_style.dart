@@ -1,10 +1,12 @@
-import 'package:adv_flutter_ch1/ch_1/task_1/view/theme_screen.dart';
 import 'package:adv_flutter_ch1/ch_1/task_2/view/stepper_screen.dart';
+import 'package:adv_flutter_ch1/ch_1/task_5/view/home_screen.dart';
 import 'package:adv_flutter_ch1/ch_1/task_5/view/intro_plan_screen.dart';
 import 'package:adv_flutter_ch1/ch_1/task_5/view/intro_working_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../../provider/intro_provider.dart';
 import 'slider.dart';
 
 Container introTextandButtom(
@@ -32,12 +34,13 @@ Container introTextandButtom(
           Text(
             title!,
             style:
-                Theme.of(context).textTheme.titleLarge!.copyWith(fontSize: 24),
+                Theme.of(context).textTheme.titleLarge!.copyWith(fontSize: 22),
           ),
           Text(
             subtitle!,
-            style: TextStyle(height: 1.5),
+            style: TextStyle(height: 1.4,fontWeight: FontWeight.w300),
           ),
+          SizedBox(height: 5,),
           slider(
               height1: height1,
               width1: width1,
@@ -45,6 +48,7 @@ Container introTextandButtom(
               width2: width2,
               height3: height3,
               width3: width3),
+          SizedBox(height: 5,),
           CupertinoButton(
             padding: EdgeInsets.zero,
             onPressed: () {
@@ -57,8 +61,9 @@ Container introTextandButtom(
                   builder: (context) => IntroWorkingScreen(),
                 ));
               } else {
-                Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => StepperScreen(),
+                Provider.of<IntroProvider>(context, listen: false).setdata();
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                  builder: (context) => Home_screen(),
                 ));
               }
             },

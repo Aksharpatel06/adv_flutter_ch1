@@ -1,3 +1,4 @@
+import 'package:adv_flutter_ch1/ch_1/task_5/view/intro_plan_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'componects/bottom_style.dart';
@@ -17,22 +18,24 @@ class IntroTemplateScreen extends StatelessWidget {
                   fit: BoxFit.cover)),
           child: Column(
             children: [
-              SizedBox(height: 20,),
+              SizedBox(height: 25,),
               Row(
                 children: [
                   Spacer(),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context) => IntroPlanScreen(),));
+                      },
                       child: Text(
                         'Skip',
                         style: Theme.of(context)
                             .textTheme
                             .titleMedium!
                             .copyWith(
-                                fontWeight: FontWeight.w600, fontSize: 20),
+                                fontWeight: FontWeight.w400, fontSize: 18),
                       ),
                   ),
-                  SizedBox(width: 5,)
+                  SizedBox(width: 15,)
                 ],
               ),
               Spacer(),
