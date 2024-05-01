@@ -72,7 +72,29 @@ https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/0671f610-33f3-
 
 https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/18aa57dd-7cca-4b27-96e5-a2d1792e6aee
 
-
-
 https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/89819a04-24d9-44ac-b166-de6186d17595
+
+<h3 align="center">🔥  One Time Intro Screen in Flutter 🔥</h3>
+<p align="center">
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/02b5482d-f9ce-4fc1-8699-ae8841f095cb' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/7fdb08b2-f679-4552-a1ac-592918a28a5f' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/105f6bd4-775b-44e4-8efc-13584ad70ec6' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/2865d432-6c41-4046-8dbf-15a75fcfb1d1' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  
+
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/tree/master/lib/ch_1/task_5">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+</p>
+
+
+
+### Video Preview Task 1.4
+
+#
+
+
+https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/dfc300cf-63da-4933-b0a6-e16f62cd44a7
+
+
 
