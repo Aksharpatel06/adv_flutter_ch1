@@ -18,6 +18,7 @@ class _StepperScreenState extends State<StepperScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Flutter Stepper Demo'),
         backgroundColor: Colors.blue.shade200,
       ),

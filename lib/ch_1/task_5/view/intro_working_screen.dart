@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 import 'componects/bottom_style.dart';
 
-class IntroPlanScreen extends StatelessWidget {
-  const IntroPlanScreen({super.key});
+class IntroWorkingScreen extends StatelessWidget {
+  const IntroWorkingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +14,8 @@ class IntroPlanScreen extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage('asset/img/img_2.png'),
-              )),
+                  image: AssetImage('asset/img/img_3.png'),
+                  fit: BoxFit.cover)),
           child: Column(
             children: [
               SizedBox(height: 20,),
@@ -24,17 +24,6 @@ class IntroPlanScreen extends StatelessWidget {
                   CupertinoButton(child: Icon(CupertinoIcons.back,color: Colors.black,), onPressed: () {
                     Navigator.pop(context);
                   },),
-                  Spacer(),
-                  TextButton(
-                      onPressed: () {},
-                      child: Text(
-                        'Skip',
-                        style: Theme.of(context)
-                            .textTheme
-                            .titleMedium!
-                            .copyWith(
-                            fontWeight: FontWeight.w600, fontSize: 20),
-                      ))
                 ],
               ),
               Spacer(),
@@ -43,14 +32,14 @@ class IntroPlanScreen extends StatelessWidget {
                   height1: 10,
                   width1: 10,
                   height2: 10,
-                  width2: 25,
+                  width2: 10,
                   height3: 10,
-                  width3: 10,
-                  title: "Fix your plan",
+                  width3: 25,
+                  title: "Start Working",
                   subtitle:
-                  "Unlock new opportunities , Connect with a vibrant community , Learn and grow at your own pace,Find resources tailored to you, And take your experience to the next level.",
-                  buttomntext: "Next",
-                  color: Colors.blueAccent)
+                  "Your journey is just beginning. Share your experiences, Collaborate with peers, Achieve your goals, And enjoy the adventure.",
+                  buttomntext: "Get Started",
+                  color: Colors.redAccent)
             ],
           ),
         ),
