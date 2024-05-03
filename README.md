@@ -84,3 +84,22 @@
   </div>
   <video src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/361de728-b3b9-436d-8d95-ddc4760f3d9f'/></video>
 </p>
+
+##
+
+
+
+
+
+<h3 align="center">🔥 Photo Gallery With Biometric Authentication 🔥</h3>
+<p align="center">
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/94b1b2f3-ae98-4678-b7f3-39d022465f12' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/15567db1-670a-4af7-810d-4e6df48e1113' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/cd329aa5-8165-48b4-ba89-863dbb9d0b60' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/49a05561-5d69-4519-8f48-234d89480057' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch1/tree/master/lib/ch_1/task_7/view">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+  <video src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/eebd80e3-506f-4af6-9bc2-31c7a5ab466c'/></video>
+</p>
