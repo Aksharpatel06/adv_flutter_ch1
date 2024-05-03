@@ -38,6 +38,7 @@ dependencies:
   provider: any
   shared_preferences: any
   url_launcher: any
+  local_auth: any
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,8 @@ flutter:
   assets:
     - asset/img/
     - asset/img/social media/
+    - asset/gallary images/
+    - asset/gallary images/hidden images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
