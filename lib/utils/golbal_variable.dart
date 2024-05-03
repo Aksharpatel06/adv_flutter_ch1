@@ -5,4 +5,4 @@ class GlobalVariable{
 }
 
 
-GalleryModal? galleryModal;
+GalleryModal? galleryModal ;

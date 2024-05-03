@@ -7,13 +7,13 @@ Widget Websitevisit(String? image,String? name) {
     onPressed: () {
       if (name == 'Github') {
         Uri uri = Uri.parse('https://github.com/Aksharpatel06');
-        launchar.launchUrl(uri);
+        launchar.launchUrl(uri,mode: launchar.LaunchMode.inAppBrowserView);
       } else if (name == 'Linkedin') {
         Uri uri = Uri.parse('https://www.linkedin.com/in/akshar-patel-073b0a295/');
-        launchar.launchUrl(uri);
+        launchar.launchUrl(uri,mode: launchar.LaunchMode.inAppBrowserView);
       } else if (name == 'Instragram') {
         Uri uri = Uri.parse('https://www.instagram.com/patel_akshar_03/');
-        launchar.launchUrl(uri);
+        launchar.launchUrl(uri,mode: launchar.LaunchMode.inAppBrowserView);
       }
     },
     padding: EdgeInsets.symmetric(vertical: 12),

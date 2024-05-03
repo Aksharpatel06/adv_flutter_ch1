@@ -13,7 +13,7 @@ Expanded galleryImges() {
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 3, mainAxisExtent: 175),
         itemBuilder: (context, index) {
-          galleryModal = GalleryModal.setdata(galleryimglist[index]);
+          galleryModal= GalleryModal.setdata(galleryimglist[index]);
           return Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
